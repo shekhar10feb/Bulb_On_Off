@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#superCard {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 2px solid black;
+  /* flex-direction: column; */
+}
+
+#card {
+  position: relative;
+  width: 18em;
+  height: 18em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+#card p {
+  position: absolute;
+  padding: 5% 5%;
+  top: 6%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 80%;
+}
+
+#cardlet {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 3em;
+}
+
+button {
+  padding: 4px;
+  background: gray;
+  color: white;
+  border-radius: 3px;
+}
+
+#buttons {
+  width: 62px;
+  height: 30px;
+  border: 2px solid gray;
+  border-radius: 3px;
+  /* flex-direction: column; */
+  display: flex;
+}
+
+#image {
+  width: 9em;
+  height: 8em;
+}
